@@ -292,6 +292,9 @@
     .wishes-card {
       font-size: 0.8rem;
     }
+    .akad {
+      gap: 0.5rem;
+    }
   }
 
   @media screen and (max-width: 450px) {
@@ -299,7 +302,7 @@
       font-size: 1.375rem;
     }
     .akad-title {
-      font-size: 1.188rem;
+      font-size: 1rem;
     }
     .akad-date-container {
       font-size: 1rem;
@@ -309,6 +312,10 @@
     }
     .sunday-21-april-container2 {
       font-size: 1rem;
+    }
+
+    .akad {
+      gap: 0.5rem;
     }
 
     .page-4 {

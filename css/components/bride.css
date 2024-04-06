@@ -281,7 +281,7 @@
     }
 
     .groom, p {
-        font-size: inherit;
+        font-size: 1rem;
         align-content: center;
         text-align: center;
     }
@@ -313,7 +313,7 @@
     }
     
     .bride-name-title-yuni-ali {
-      font-size: inherit;
+      font-size: 1.2rem;
       text-align: center;
     }
 
@@ -334,7 +334,8 @@
         text-align: center;
     }
 
-    .groom {
+    .groom, p {
+        font-size: 0.8rem;
         align-content: center;
         text-align: center;
     }
