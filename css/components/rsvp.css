@@ -1,0 +1,196 @@
+.rsvp {
+    margin: 0;
+    width: 64rem;
+    height: 3.5rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .textfield-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0.5rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .row7 {
+    height: 2.25rem;
+    width: 12.5rem;
+  }
+  .row-container,
+  .textfield-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .row-container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.25rem;
+  }
+  .textfield-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    max-width: 100%;
+  }
+  .wedding-gift {
+    margin: 0;
+    width: 20.438rem;
+    position: relative;
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: Georgia;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .title8,
+  .title9 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1.25rem 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .title8 {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem 0 0;
+  }
+  .a-delightful-blessing,
+  .as-love-is {
+    margin: 0;
+  }
+  .as-love-is-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 1rem;
+    font-family: "Times New Roman";
+    color: #fff;
+    text-align: center;
+  }
+  .desc9 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bca-idr {
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-family: "Times New Roman";
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .desc10 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .logic-gate,
+  .yunilucki-siswantari {
+    align-self: stretch;
+    position: relative;
+    font-size: 1.5rem;
+    font-family: "Times New Roman";
+    color: #fff;
+    text-align: center;
+  }
+  .yunilucki-siswantari {
+    font-size: 1rem;
+  }
+  .row8 {
+    width: 12.5rem;
+    height: 2.25rem;
+  }
+  .name4 {
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  .frame-parent,
+  .gift,
+  .name4,
+  .page-5 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .gift {
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .frame-parent,
+  .page-5 {
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    margin: 0;
+    width: 64rem;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .page-5 {
+    background-image: url("../../img/ay-background/rsvp-background.png");
+    background-size: cover;
+    color: #fff;
+    gap: 1.5rem;
+  }
+  
+  @media screen and (max-width: 975px) {
+    .rsvp,
+    .wedding-gift {
+      font-size: 1.813rem;
+    }
+    .page-5 {
+      padding-top: 1.313rem;
+      padding-bottom: 1.25rem;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .rsvp,
+    .wedding-gift {
+      font-size: 1.375rem;
+    }
+    .logic-gate {
+      font-size: 1.188rem;
+    }
+    .row8 {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      box-sizing: border-box;
+    }
+  }
+  
+.form-rsvp-container {
+    margin: 1.5rem 0rem;
+  }
+
+.no-rekening {
+    font-size: 1.5rem;
+}

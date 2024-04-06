@@ -1,0 +1,145 @@
+/* Page 2 */
+#wedding-header {
+    flex-direction: column;
+    padding: 24px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-family: "Times New Roman";
+    display: flex;;
+  }
+  
+  .img-icon13 {
+    height: 327px;
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .photo {
+    /* width: 327px; */
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .photo-icon {
+    align-self: stretch;
+    max-width: 100%;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .yuni-ali8 {
+    margin: 0;
+  }
+  .yuni-ali-container5 {
+    margin: 0;
+    height: 38px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .title15 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 24px;
+    font-family: Georgia;
+  }
+  .sunday-21-april-container7 {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .desc8 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .nicholas-sparks,
+  .the-best-love2 {
+    margin: 0;
+  }
+  .the-best-love-container2 {
+    height: 59px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .desc9 {
+    align-self: stretch;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .row23 {
+    width: 200px;
+    height: 48px;
+  }
+  .title14 {
+    align-self: stretch;
+    flex-direction: column;
+    padding: 11.5px 0;
+    box-sizing: border-box;
+    gap: 16px;
+  }
+  .content6,
+  .page-22,
+  .title14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .container-header {
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .page-22 {
+    align-self: stretch;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 24px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-family: "Times New Roman";
+  }
+  @media screen and (max-width: 725px) {
+    .page-22 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .yuni-ali-container5 {
+      font-size: 19px;
+    }
+  }

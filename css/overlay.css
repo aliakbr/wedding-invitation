@@ -1,0 +1,201 @@
+.the-wedding-times-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    font-family: Chomsky;
+  }
+  
+  .bottom-header {
+    flex: 1
+  }
+  
+  .upper-header {
+    flex: 1
+  }
+  
+  .the-wedding-times-ali-yuni {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: #fff
+  }
+  
+  .karunia-global-school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-top: 16px;
+    justify-content: center;
+  }
+  
+  .karunia-global-school-text {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  
+  .sunday-21-april-container6 {
+    align-self: stretch;
+    position: relative;
+    text-align: center;
+  }
+  
+  .invitation-details {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  
+  .invitation-greeting {
+    font: 400 20px Times New Roman, sans-serif;
+    color: #fff;
+  }
+  
+  .invitation-recipient {
+    margin-top: 8px;
+    font: 700 32px Times New Roman, sans-serif;
+    color: #fff;
+  }
+  
+  .invitation-button {
+    margin-top: 16px;
+  }
+  
+  .invitation-sorry {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 16px;
+  }
+  
+  #overlay {
+    background: #ffffff;
+    background-image: url("../img/overlay.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+  }
+  
+  #overlay .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2001;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #overlay .content .container {
+    padding-top: 32px;
+  }
+  
+  #overlay .content .couple-main {
+    width: 200px;
+  }
+  
+  #overlay .content h1 {
+    font-size: 80px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #ffff;
+    font-family: Chomsky;
+  }
+
+  @media screen and (max-width: 1000px) {
+    #overlay .content h1 {
+      font-size: 60px;
+    }
+  
+    .the-wedding-times-ali-yuni {
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      text-align: center;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 1.5;
+      color: #fff
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #overlay .content h1 {
+      font-size: 42px;
+    }
+  
+    .the-wedding-times-ali-yuni {
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      text-align: center;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 1.5;
+      color: #fff
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .the-wedding-times-ali-yuni {
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 1.5;
+      color: #fff
+    }
+  
+    #overlay .content h1 {
+      font-size: 32px;
+    }
+  
+    .karunia-global-school-text {
+      font-size: 0.8rem;
+    }
+  
+    .invitation-button {
+      font-size: 0.8rem;
+    }
+  
+    .invitation-greeting {
+      font-size: 16px;
+    }
+  
+    .invitation-recipient {
+      font-size: 24px;
+    }
+  }
+  
+  #overlay .content .fh5co-heading {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  #overlay .content p {
+    color: #ffffff;
+  }
+  
+  .hide-overlay {
+    transform: translateY(200%);
+    transition: 0.4s ease-in-out;
