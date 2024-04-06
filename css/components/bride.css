@@ -86,8 +86,8 @@
   }
 
   .img-icon1 {
-    height: 13rem;
-    width: 13rem;
+    height: 14rem;
+    width: 14rem;
     object-fit: cover;
   }
   .bride {
@@ -222,8 +222,8 @@
   @media screen and (max-width: 975px) {
     .img-icon1 {
       flex: 1;
-      width: 9rem;
-      height: 9rem;
+      /* width: 9rem;
+      height: 9rem; */
       align-items: center;
     }
     
@@ -247,8 +247,8 @@
     .img-icon1,
     .name {
       flex: 1;
-      width: 12rem;
-      height: 12rem;
+      /* width: 12rem;
+      height: 12rem; */
       align-items: center;
     }
 
@@ -291,8 +291,8 @@
     .name {
       flex: 1;
       text-align: center;
-      width: 8rem;
-      height: 8rem;
+      /* width: 8rem;
+      height: 8rem; */
     }
 
     .content2 {

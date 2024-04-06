@@ -288,6 +288,10 @@
       padding-top: 1.625rem;
       padding-bottom: 1.625rem;
     }
+
+    .wishes-card {
+      font-size: 0.8rem;
+    }
   }
 
   @media screen and (max-width: 450px) {
@@ -312,3 +316,27 @@
     }
   }
   
+  .wishes-list {
+    position: relative;
+    height: 450px;
+  }
+
+  .wishes-list-container {
+    max-height: 100%;
+    overflow: auto;
+  }
+
+  .wishes-card {
+    border-radius: 8px;
+    background-color: #ffff;
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .wishes-card-date {
+    color: grey;
+  }

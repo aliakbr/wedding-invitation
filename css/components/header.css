@@ -117,6 +117,7 @@
     color: #000;
     font-family: "Times New Roman";
     display: flex;
+    margin-top: 1rem;
   }
 
 .black-theme-btn {
@@ -132,17 +133,13 @@
 /* Small Device */
   @media screen and (max-width: 768px) {
     .page-2 {
-      padding-top: 1.25rem;
-      padding-bottom: 1.25rem;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
       box-sizing: border-box;
     }
 
     .h3-header {
         font-size: 1.188rem;
-    }
-
-    .page-2 {
-      padding: 1.5rem 1rem;
     }
 }
 

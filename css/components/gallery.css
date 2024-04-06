@@ -1,0 +1,33 @@
+.gallery-content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.gallery-photo {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1025px){
+    .gallery-photo {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .gallery-content {
+        flex-direction: column;
+    }
+
+    .gallery-photo {
+        width: 14rem;
+        height: 14rem;
+        object-fit: cover;
+    }
+}

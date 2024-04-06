@@ -352,6 +352,10 @@ textarea {
   border-radius: 8px;
 }
 
+.form-control {
+  border-radius: 8px;
+}
+
 .form-select {
   font-size: 0.75rem;
   border-radius: 8px;
