@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/components/rsvp.css">
   <link rel="stylesheet" href="css/components/gallery.css">
   <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/components/fabs.css">
   
   <meta name="description" content="">
 
@@ -40,6 +41,13 @@
 <body>
 
   <!-- Add your site or application content here -->
+  <!--Floating button-->
+  <div id="audio-container" class="float">		
+    <iframe src="music/love-letter.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+    <audio autoplay loop  id="playAudio">
+      <source src="https://www.youtube.com/watch?v=LFmQOlwANaY" type="audio/mp3">
+    </audio>
+  </div>
 
   <!-- Overlay Content -->
   <div id="overlay">
@@ -75,8 +83,13 @@
     </div>
   </div>
 
+  <!-- FABS -->
+  <a href="#" class="float">
+    <i class="fa fa-plus my-float"></i>
+  </a>
+
   <!-- Header Page -->
-  <section class="page-2 fade-in-image">
+  <section class="page-2 fade-in-image" id="header">
     <div class="content1">
       <img class="photo-icon" loading="lazy" alt="" src="img/ay-background/header.png" />
       <div class="title">
@@ -266,7 +279,7 @@
         Yunilucki Siswantari
       </span>
     </div>
-    <button class="btn white-theme-btn" id="copy-rekening">Copy</button>
+    <button class="btn white-theme-btn fade-in-scroll-animation" id="copy-rekening">Copy</button>
   </section>
 
   <!-- Wishes -->

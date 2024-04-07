@@ -32,13 +32,13 @@
     align-items: center;
     box-sizing: border-box;
     max-width: 100%;
-    margin-top: 16px;
+    margin-top: 1rem;
     justify-content: center;
   }
   
   .karunia-global-school-text {
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     margin-top: 1rem;
@@ -56,13 +56,13 @@
   }
   
   .invitation-greeting {
-    font: 400 20px Times New Roman, sans-serif;
+    font: 400 1rem Times New Roman, sans-serif;
     color: #fff;
   }
   
   .invitation-recipient {
     margin-top: 8px;
-    font: 700 32px Times New Roman, sans-serif;
+    font: 700 1.5rem Times New Roman, sans-serif;
     color: #fff;
   }
   
@@ -145,7 +145,7 @@
       justify-content: center;
       max-width: 100%;
       text-align: center;
-      font-size: 24px;
+      font-size: 1.5rem;
       font-family: 'Times New Roman', Times, serif;
       line-height: 1.5;
       color: #fff
